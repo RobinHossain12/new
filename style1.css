@@ -1,0 +1,18 @@
+.img1-container {
+
+    width: 50px;
+    height: 200px;
+
+    /* margin-right: 200px; */
+}
+
+.self {
+    width: 300px;
+    height: 450px;
+    border-radius: 5%;
+    margin-right: 150px;
+}
+
+.height {
+    height: 60vh;
+}

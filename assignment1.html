@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Assainment1
+    </title>
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- boostrap -->
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <!-- fornt awesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+    <header>
+
+
+
+        <nav class="navbar  container navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div>
+                    <img class="rounded-circle" src="images/logo.jpg" alt="">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Protfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-primary p-0">
+                                <a class="nav-link" href="#">Resume <i class="fa-solid fa-download"></i></a>
+
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <section class=" row d-flex container justify-content-center mt-5 ms-5">
+            <div class=" container col-md-4 col-sm-12">
+                <h1>HI !</h1>
+                <h1> I'M ROBIN HOSSAIN</h1>
+                <P>wb Developer|| react Developer|| Programmer</P>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio nisi temporibus atque iure
+                    mollitia rerum ad doloremque consequuntur ullam quae.
+                </div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <button class="btn btn-primary">
+                            <a class="nav-link text-white p-0" href="#">resume
+                                <i class="fa-solid fa-download"></i>
+                            </a>
+                        </button>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class=" container w-50 col-md-8 col-sm-12">
+                <img class="self" src="images/robin (2).JPG" class="img-fluid" alt="...">
+            </div>
+
+
+        </section>
+
+
+    </header>
+    <main>
+
+        <h1 class="text-center text-primary mt-5">Protfolio</h1>
+        <section
+            class="border border-warning row d-flex justify-content-center mt-5 mb-5 p-3 w-55 text-center ms-5 me-5">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <!-- img -->
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/travel-guru-map.png" class="d-block w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/Travel-Search.png" class="d-block w-50" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-primary">
+                <!-- describtion -->
+                <h1>online University <i class="fa-brands fa-staylinked"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+                <p>This is Travel service Agency website.user can login via facebook sign-in ,Google Sign-in and also
+                    can crate an ner account foe use the service. User can choice the service as he/she want..
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, accusantium.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+
+
+            </div>
+        </section>
+
+        <section
+            class="border border-warning row d-flex justify-content-center mt-5 mb-5 p-2 w-55 text-center ms-5 me-5 mt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <!-- img -->
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/travel-guru-map.png" class="d-block w-50" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/Travel-Search.png" class="d-block w-50" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-primary">
+                <!-- describtion -->
+                <h1>online University <i class="fa-brands fa-staylinked"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+                <p>This is Travel service Agency website.user can login via facebook sign-in ,Google Sign-in and also
+                    can crate an ner account foe use the service. User can choice the service as he/she want..
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, accusantium.</p>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+
+
+            </div>
+        </section>
+        <!-- describtion2 -->
+        <section class="mt-5">
+
+
+
+            <div class="container mb-5 row col-6 ms-5">
+                <h3 class="mb-4">Expertise:</h3>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-secondary p-2">React.js</span>
+                    <span class="badge bg-secondary p-2">Javascript</span>
+                    <span class="badge bg-secondary p-2">node.js</span>
+                    <span class="badge bg-secondary p-2">Firebase</span>
+                    <span class="badge bg-secondary p-2">Express.js</span>
+                    <span class="badge bg-secondary p-2">HTML</span>
+                    <span class="badge bg-secondary p-2">Bootstrap</span>
+                    <span class="badge bg-secondary p-2">MongoDB</span>
+                </div>
+            </div>
+
+            <div class="container mb-5 ms-5 d-flex">
+
+                <div>
+                    <h3 class=" mb-4">Comfortable:</h3>
+
+                    <span class="badge bg-secondary p-2">SQL</span>
+                    <span class="badge bg-secondary p-2">Redux</span>
+                    <span class="badge bg-secondary p-2">Socket.io</span>
+                    <span class="badge bg-secondary p-2">AWS</span>
+                    <span class="badge bg-secondary p-2">Docker</span>
+                    <span class="badge bg-secondary p-2">TypeSript</span>
+                    <span class="badge bg-secondary p-2">Next.js</span>
+
+
+                </div>
+
+                <div>
+                    <h1>My Education</h1>
+                    <p class="row col-6 text-center">B.Sc in Software Engineering,Yunnan University
+                        (Kunming,Yunnan,China), 2018-2022</p>
+
+
+
+                </div>
+            </div>
+
+            <div class=" container ms-5 mb-4">
+                <h3>Familiar:</h3>
+                <span class="badge bg-secondary p-2">C++</span>
+                <span class="badge bg-secondary p-2">python</span>
+                <span class="badge bg-secondary p-2">Spring Boot</span>
+                <span class="badge bg-secondary p-2">Networking</span>
+
+            </div>
+
+
+            <div class=" conatiner mt-3 ms-5 mb-4">
+                <h3>Tools:</h3>
+                <span class="badge bg-secondary p-2">VS Code</span>
+                <span class="badge bg-secondary p-2">JIRA</span>
+                <span class="badge bg-secondary p-2">Trello</span>
+                <span class="badge bg-secondary p-2">Git</span>
+                <span class="badge bg-secondary p-2">Git</span>
+
+
+            </div>
+
+        </section>
+        <!-- form -->
+
+        <section class=" container mt-3 ms-5">
+            <h1 class="mb-4 text-center">Contact With Me</h1>
+            <div class=" d-flex justify-content-center row col-sm-12">
+                <form class="w-50  mt-3 mb-4 border border-warning mb-2 d-flex justify-content-center row">
+                    <div class="input-group mt-5 w-50 ms-5">
+
+                        <input type="text" class="form-control" placeholder="Type Your Name" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mt-3 w-50 ms-5">
+                        <input type="text" class="form-control" placeholder="user-email"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                    </div>
+
+
+                    <div class="input-group mt-3 mb-2 w-50 ms-5">
+                        <textarea class="form-control" placeholder="text-area" aria-label="With textarea"></textarea>
+                    </div>
+                </form>
+            </div>
+
+
+        </section>
+
+    </main>
+    <footer class="text-center bg-dark text-white">
+        <div>
+            <h1>Copyright <i class="fa fa-copyright"></i>2025| Robin Hossain</h1>
+            <p>Kunning,yunnan,china</p>
+            <div class="gap-10">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+    <!-- boostrap js -->
+
+
+    <div>
+        <script src="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+
+    </div>
+</body>
+
+</html>
